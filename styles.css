@@ -1,0 +1,26 @@
+body {
+  font-family: "Sawarabi Gothic", sans-serif;
+}
+body > .container {
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+  color: #fff;
+  background-image: url("./assets/sunny.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body > .container > .temperature, body > .container .time-zone {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+body > .container > .wind-speed, body > .container .updated, body > .container .time-zone {
+  font-size: 32px;
+}
+body > .container.rainy {
+  background-image: url("./assets/rain.jpg");
+  color: #32a852;
+}
+
+/*# sourceMappingURL=styles.css.map */
